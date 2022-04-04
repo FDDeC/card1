@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Info from './components/Info';
+import Footer from './components/Footer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <div className='container'>
+<div className='info-img'/>
+<Info/>
+<Footer/>
+</div>
   </React.StrictMode>,
   document.getElementById('root')
 );
